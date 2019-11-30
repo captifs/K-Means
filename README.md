@@ -1,3 +1,6 @@
+# K Means
+
+
 Functia `read_input_data.m.` Pentru a  citi datele de intrare din cele 2 tipuri de fisiere `.param` si `.points` , le-am deschis cu `fopen` , am citit  numerele din `.param` cu `fscanf` , si am citit valorile din fisierele `.points`  cu `dlmread`.
 ___
 
