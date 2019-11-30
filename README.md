@@ -1,8 +1,8 @@
 
 
 Functia read_input_data.m. Pentru a  citi datele de intrare din cele 2 tipuri de fisiere .param si .points, le-am deschis cu fopen , am citit  numerele din .param cu fscanf , si am citit valorile din fisierele .points  cu dlmread.
--_______________________________________________-
 
+                                              _-_
 
 Functia clustering_pc.m. returneaza  centroizii corespunzatori punctelor date folosind algoritmul K Means.
 O solutie nefavorabila , va fi  daca atribuim numarul de clustere apropiat de numarul de puncte, in acest caz este inutil sa generam aleator centroizi. 
@@ -11,7 +11,7 @@ d = ((sum(((x - y).^2)')).^(1/2))'.
 Apoi am luat distanta minima si indexul centroidului pentru care a fost calculat intr-o matrice.
 Apoi am recalculat noile pozitii. 
 In  cazul in care nu avem punct favorabil pentru centroid si am facut o verificare si am  incercat sa gasesc unul mai bun. 
--________________________________________________-
+
 
 
 
